@@ -1,0 +1,5 @@
+= Aleph-One Marathon
+
+----
+./scripts/download-standalone-game-files.sh > logs/download-standalone-game-files.log 2>&1
+----

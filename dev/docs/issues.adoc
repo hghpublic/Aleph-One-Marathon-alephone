@@ -1,0 +1,9 @@
+= Issues
+
+----
+❯ autoreconf -i        
+configure.ac:102: error: possibly undefined macro: AC_MSG_ERROR
+      If this token and others are legitimate, please use m4_pattern_allow.
+      See the Autoconf documentation.
+autoreconf: error: /usr/bin/autoconf failed with exit status: 1
+----
