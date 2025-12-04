@@ -1,0 +1,106 @@
+= Marathon
+:toc:
+:sectnums:
+ifndef::env-github[:icons: font]
+:note-caption: :paperclip:
+:important-caption: :exclamation:
+:warning-caption: :warning:
+
+[IMPORTANT]
+====
+The commit history of this branch is highly unstable. I rebase and force push at will.
+
+The history may be rewritten without notice.
+====
+
+== Marathon
+
+https://alephone.lhowon.org/
+
+https://github.com/Aleph-One-Marathon/alephone
+
+[source, shell]
+----
+git submodule update --recursive
+----
+
+=== configure, make, install
+
+autoreconf::
++
+[source, shell]
+----
+autoreconf -fi
+----
+https://manpages.ubuntu.com/manpages/latest/man1/autoreconf-dickey.1.html
+
+configure::
++
+[source, shell]
+----
+./configure
+----
+
+make::
++
+[source, shell]
+----
+make
+----
+
+install::
++
+[source, shell]
+----
+sudo make install
+----
+
+run::
++
+[source, shell]
+----
+/usr/local/bin/alephone ~/Games/Marathon
+----
+
+custom automake build script::
++
+[source, shell]
+----
+❯ ./dev/automake/build.sh
+----
+
+== standalone game files
+
+https://github.com/Aleph-One-Marathon/alephone/releases/
+
+Marathon::
+https://github.com/Aleph-One-Marathon/alephone/releases/download/release-20250829/Marathon-20250829-Data.zip
+
+Marathon 2::
+https://github.com/Aleph-One-Marathon/alephone/releases/download/release-20250829/Marathon2-20250829-Data.zip
+
+Marathon Infinity::
+https://github.com/Aleph-One-Marathon/alephone/releases/download/release-20250829/MarathonInfinity-20250829-Data.zip
+
+
+== Scenarios
+
+https://alephone.lhowon.org/scenarios.html
+
+https://simplici7y.com/tags/scenario/
+
+=== Aleph One: Pathways Into Darkness
+
+https://simplici7y.com/items/aleph-one-pathways-into-darkness/
+
+https://simplici7y.com/scenarios/aleph-one-pathways-into-darkness/
+
+
+https://simplici7y.com/items/hd-aopid-graphics/
+
+[source, shell]
+----
+curl -L https://simplici7y.com/items/aleph-one-pathways-into-darkness/downloads/new > AOPID_v1.4.zip
+curl -L https://simplici7y.com/items/hd-aopid-graphics/downloads/new > HD_AOPID.zip
+curl -L https://simplici7y.com/items/aleph-one-pathways-into-darkness-remastered-sounds/downloads/new > AOPID_Remastered_Sounds_v1.0.zip
+----
